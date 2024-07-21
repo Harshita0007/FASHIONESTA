@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically */
+    padding: 15px 60px;
+    box-shadow: 0 1px 3px -2px #000;
+    margin-bottom: 1px;
+    background: white;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center; /* Align items vertically */
+  }
+  
+  .nav-profile,
+  .nav-arrow {
+    max-width: 40px; /* Adjust maximum width as needed */
+    max-height: 40px; /* Adjust maximum height as needed */
+    margin-right: 10px; /* Optional: Adjust margin for spacing */
+  }
+  
+  .brand {
+    display: flex;
+    align-items: center; /* Align items vertically */
+  }
+  
+  .brand .nav-logo {
+    max-width: 40px; /* Adjust maximum width as needed */
+    max-height: 50px; /* Adjust maximum height as needed */
+    margin-left: 15px; /* Optional: Adjust margin for spacing */
+  }
+  
+  .brand-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items at the top */
+  }
+  
+  .brand h1,
+  .brand p {
+    margin: 0; /* Remove default margin */
+  }
+  .admin-panel {
+    color: red; /* Set text color to red */
+  }
+  
